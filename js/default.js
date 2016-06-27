@@ -16,6 +16,7 @@ for(var i = 1; i <= number; i++){
     li.textContent ='Fizz'
     if(i%5===0){
     li.textContent ='Buzz'
+    }
   }
   }else
   if(i%5===0){
