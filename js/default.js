@@ -10,7 +10,7 @@ if(parameters){
  number = parseInt(element[1]);
 }
 
-for(var i = 1; i < number; i++){
+for(var i = 1; i <= number; i++){
   var li = document.createElement('li');
   if(i%3){
     message='Fizz'
