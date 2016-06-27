@@ -15,7 +15,7 @@ for(var i = 1; i <= number; i++){
   if(i%3){
     message='Fizz'
   }
-  if(i%5){
+  if else(i%5){
     message='Buzz'
   }
   else{
