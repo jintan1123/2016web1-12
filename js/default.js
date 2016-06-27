@@ -2,6 +2,7 @@ var remainder3;
 var remainder5;
 var message;
 document.getElemenybyId('form').onsubmit = function(){
+  window.alert(document.getElementById('form').number.value)
 };
 for(var i = 1; i < number; i++){
   var li = document.createElement('li');
