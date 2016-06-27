@@ -9,7 +9,7 @@ var parameters = query.split( '&' );
 var number = 100;
 if(parameters){
  var element = parameters[0].split( '=' );
- number = pareInt(element[1]);
+ number = parseInt(element[1]);
 }
 
 for(var i = 1; i < number; i++){
