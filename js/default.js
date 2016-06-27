@@ -1,5 +1,3 @@
-var remainder3;
-var remainder5;
 var message;
 document.getElementById('form').onsubmit = function(){
   window.alert(document.getElementById('form').number.value)
@@ -14,12 +12,10 @@ if(parameters){
 
 for(var i = 1; i < number; i++){
   var li = document.createElement('li');
-  remainder3 = i%3;
-  remainder5 = i%5;
-  if(remainder3=0){
+  if(i%3){
     message='Fizz'
   }
-  if(remainder5=0){
+  if(i%5){
     message='Buzz'
   }
   else{
